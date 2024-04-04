@@ -171,19 +171,20 @@ packages:
   gallery_media_picker:
     dependency: transitive
     description:
-      name: gallery_media_picker
-      sha256: "85054c3829f4c28e8ddfe75c132ae020576d102bf477eae221f2d953872e551e"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "585d8f802f7e7525e6c99ca3f37169a576d04af3"
+      url: "https://github.com/venkylm10/gallery_media_picker.git"
+    source: git
     version: "0.1.0"
   http:
     dependency: transitive
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.2.1"
   http_parser:
     dependency: transitive
     description:
@@ -291,11 +292,12 @@ packages:
   modal_gif_picker:
     dependency: transitive
     description:
-      name: modal_gif_picker
-      sha256: d653c5a8a3e2932bc028132c4623cb51c505d97bf3093f44e81f1260f8d7a595
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.2"
+      path: "."
+      ref: main
+      resolved-ref: feea17a7007cacd2396abcc743671f7926dc7e14
+      url: "https://github.com/venkylm10/modal_gif_picker.git"
+    source: git
+    version: "0.0.3"
   nested:
     dependency: transitive
     description:

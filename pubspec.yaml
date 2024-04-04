@@ -20,12 +20,16 @@ dependencies:
 
   image_gallery_saver: ^2.0.3
   #own packages
-  gallery_media_picker: ^0.1.0  
+  gallery_media_picker:
+    git:
+     url: https://github.com/venkylm10/gallery_media_picker.git
+     ref: main
 
   modal_gif_picker:
     git:
-     url: https://github.com/venkylm10/modal_gif_picker
+     url: https://github.com/venkylm10/modal_gif_picker.git
      ref: main
+    
   # painting
   perfect_freehand: ^1.0.4
   # positioning
