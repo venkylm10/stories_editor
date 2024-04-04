@@ -126,8 +126,11 @@ class _MainViewState extends State<MainView> {
   @override
   Widget build(BuildContext context) {
     final ScreenUtil screenUtil = ScreenUtil();
-    return WillPopScope(
-      onWillPop: _popScope,
+    return PopScope(
+      canPop: false,
+      onPopInvoked: (val) {
+        _popScope();
+      },
       child: Material(
         color: widget.editorBackgroundColor == Colors.transparent
             ? Colors.black
